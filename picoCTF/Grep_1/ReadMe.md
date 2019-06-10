@@ -18,6 +18,8 @@ We need to search "file" looking for flag pattern:
 grep {*} file
 ```
 
+~[alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Grep_1/Solution.png)
+
 There is only our flag matching to this pattern
 
 #### *Flag: picoCTF{grep_and_you_will_find_42783683}*
