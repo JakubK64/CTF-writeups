@@ -1,7 +1,6 @@
 # General Warmup 3
 
 ### Description
-
 ![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/General_Warmup_3/task.png)
 
 ### Solution
