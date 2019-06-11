@@ -12,4 +12,4 @@ nc 2018shell.picoctf.com 36356
 and we get the flag:
 ![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/net_cat/Solution.png)
 
-#### *Flag: picoCTF{NEtcat_iS_a_NEcESSiTy_8b6a1fbc}*
+#### *Flag: picoCTF{NEtcat_iS_a_NEcESSiTy_9453f3e0}*
