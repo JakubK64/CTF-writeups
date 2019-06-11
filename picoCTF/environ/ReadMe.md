@@ -1,7 +1,7 @@
 # Environ
 
 ### Description
-![alt txt]()
+![alt txt](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/environ/task.png)
 
 ### Solution
 
@@ -15,6 +15,6 @@ There is many of them on this serwer so we need to use grep to find our flag:
 ```unix
 printenv | grep {*}
 ```
-![alt text]()
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/environ/solution.png)
 
 #### *Flag: picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}*
