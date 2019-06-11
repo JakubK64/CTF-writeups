@@ -17,4 +17,4 @@ strings strings | grep {*}
 ```
 ![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/strings/Solution.png)
 
-#### *Flag: picoCTF{sTrIngS_sAVeS_Time_3f712a28}*
+#### *Flag: picoCTF{sTrIngS_sAVeS_Time_2fbe2166}*
