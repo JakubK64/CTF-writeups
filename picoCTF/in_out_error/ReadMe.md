@@ -1,13 +1,13 @@
 # in out error
 
 ### Decription
-![alt text]()
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/in_out_error/task.png)
 
 ### Solution
 
 We have 2 files in this directory: program calls "in-out-error" and "flag.txt" file.
 When we try to run it we don't get anything special
-![alt text]()
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/in_out_error/solution1.png)
 
 One example way to get flag from this program is to redirect stderr (standard error output) to any text file (we don't have permission to
 create any file in this directory so we need to do it for example in our home directory).
@@ -17,10 +17,10 @@ create any file in this directory so we need to do it for example in our home di
 
 When we do it correctly we get long message, 
 something like letter starting with "Thank you for asking so nicely!".
-![alt text]()
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/in_out_error/solution2.png)
 
 Last thing we need to do is open out text file, when we can find our flag wrote multiple times.
-![alt text]()
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/in_out_error/solution3.png)
 
 #### *Flag: picoCTF{p1p1ng_1S_4_7h1ng_b6f5a788}*
 
