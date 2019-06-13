@@ -18,19 +18,19 @@ gdb run  // here "run" is name of program we want to debug
 We can run program again. As we can see our flag is stored in variable called "flag_buf". We can for example watch this variable to 
 see moment, when it gets something from memory. We can do it using:
 ```unix
-watch flag_buf
+(gdb) watch flag_buf
 ```
 
 When we have defined watchpoint on this variable we can run program again. It will stop at the beggining of function called "decrypt_flag",
 when our variable get some adress. At this moment we can't print anything from this variable. We need to wait for the end of "decrypt_flag"
 function. We use "next" which will stop running program when function will end:
 ```unix
-next
+(gdb) next
 ```
 
-Now, when in "flag_buf" we have decrypted flag we can print in on our screen using:
+Now, when in "flag_buf" we have decrypted flag we can print it on our screen using:
 ```unix
-printf "%s", (char*) flag_buf    // standrad printf syntax from C language
+printf "%s", (char*) flag_buf    // standrad output syntax from C language
 ```
 ![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/learn_gdb/solution2.png)
 
