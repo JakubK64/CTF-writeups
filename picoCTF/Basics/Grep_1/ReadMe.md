@@ -2,7 +2,7 @@
 
 ### Description
 
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Grep_1/task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/Grep_1/task.png)
 
 ### Solution
 
