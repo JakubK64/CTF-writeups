@@ -1,13 +1,13 @@
 # Learn gdb
 
 ### Decription
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/learn_gdb/task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/learn_gdb/task.png)
 
 ### Solution
 
 We can see that we have here program called "run". When we run it we can see, that it decrypt flag from somewhere and save it in global
 variable called "flag_buf", but of course doesn't print it.
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/learn_gdb/solution1.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/learn_gdb/solution1.png)
 
 What we need to do is run gdb (GNU debugger, debugger from GNU project).
 We run it using:
@@ -32,7 +32,7 @@ Now, when in "flag_buf" we have decrypted flag we can print it on our screen usi
 ```unix
 printf "%s", (char*) flag_buf    // standrad output syntax from C language
 ```
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/learn_gdb/solution2.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/learn_gdb/solution2.png)
 
 We get our flag.
 
