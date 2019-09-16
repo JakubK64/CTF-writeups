@@ -2,7 +2,7 @@
 
 ### Description
 
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/General_Warmup_2/Task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/General_Warmup_2/Task.png)
 
 ### Solution
 
