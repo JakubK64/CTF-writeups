@@ -4,7 +4,7 @@
 ### Description
 
 
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/General_Warmup_1/Task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Baiscs/General_Warmup_1/Task.png)
 
 ### Solution
 
