@@ -1,7 +1,7 @@
 # Strings
 
 ### Description
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/strings/task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/strings/task.png)
 
 ### Solution
 
@@ -15,6 +15,6 @@ We use "strings" command to get text from binary file and then search on result 
 ```unix
 strings strings | grep {*}
 ```
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/strings/Solution.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/strings/Solution.png)
 
 #### *Flag: picoCTF{sTrIngS_sAVeS_Time_2fbe2166}*

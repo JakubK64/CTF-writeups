@@ -1,7 +1,7 @@
 # You can't see me
 
 ### Description
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/you_can't_see_me/task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/you_can't_see_me/task.png)
 
 ### Solution
 
@@ -18,6 +18,6 @@ cat .*
 ```
 
 This command allow us to cat every file which name starts with "." (in this directory only file with flag)
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/you_can't_see_me/solution.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/you_can't_see_me/solution.png)
 
 #### *Flag: picoCTF{j0hn_c3na_paparapaaaaaaa_paparapaaaaaa_22f627d9}*

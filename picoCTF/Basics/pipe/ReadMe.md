@@ -1,7 +1,7 @@
 # Pipe
 
 ### Description
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/pipe/task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/pipe/task.png)
 
 ### Solution
 
@@ -9,6 +9,6 @@ When we try to connect to this server using "nc" we automatically get a lot of t
 ```unix
 nc 2018shell.picoctf.com 48696 | grep {*}
 ```
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/pipe/solution.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/pipe/solution.png)
 
 #### *Flag: picoCTF{almost_like_mario_f617d1d7}*

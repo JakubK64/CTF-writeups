@@ -1,7 +1,7 @@
 # Grep 2
 
 ### Description 
-![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Grep_2/task.png)
+![alt text](https://github.com/JakubK64/CTF-writeups/blob/master/picoCTF/Basics/Grep_2/task.png)
 
 ### Solution
 
